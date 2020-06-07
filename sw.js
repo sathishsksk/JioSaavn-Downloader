@@ -1,8 +1,8 @@
 'use strict';
 
 const cacheName = 'jiosaavnsw';
-const startPage = 'https://jiosaavn.ga';
-const offlinePage = 'https://jiosaavn.ga/offline.html';
+const startPage = 'https://jiosaavn1.netlify.app';
+const offlinePage = 'https://jiosaavn1.netlify.app/offline.html';
 const filesToCache = [
   startPage,
   offlinePage,
