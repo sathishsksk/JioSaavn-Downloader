@@ -15,7 +15,7 @@ var surl = getUrlParameter('url');
 
 if (surl == null) {
     document.title = "Album Search - jiosaavn1.netlify.app";
-    document.getElementById("status").innerHTML = "<h5>Welcome to ShiNobi Presents<br>JioSaavn Downloader</h5><a href='/?url=https://www.jiosaavn.com/song/meri-aashiqui/RV4pdS5obh4'><img src='https://c.saavncdn.com/952/Meri-Aashiqui-Hindi-2020-20200602234001-500x500.jpg' width='250px' height='250px'>";
+    document.getElementById("status").innerHTML = "<h5>Welcome to Shinobi Presents<br>JioSaavn Downloader</h5><a href='/?url=https://www.jiosaavn.com/song/meri-aashiqui/RV4pdS5obh4'><img src='https://c.saavncdn.com/952/Meri-Aashiqui-Hindi-2020-20200602234001-500x500.jpg' width='250px' height='250px'>";
     document.getElementById("input").innerHTML = "<input type='text' id='srcid' name='url' placeholder='Enter Song Name or JioSaavn Link' value='' autocomplete='off' required><input type='submit' value='Search'>";
 } else if (surl.startsWith("https://www.jiosaavn.com/album/")) {
     var obj, xmlhttp, al, songs, x, txt = "";
