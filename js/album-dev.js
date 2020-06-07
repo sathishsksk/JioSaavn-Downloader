@@ -14,7 +14,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 var surl = getUrlParameter('url');
 
 if (surl == null) {
-    document.title = "Album Search - jiosaavn1.netlify.app";
+    document.title = "Album Search - shinobi-jiosaavn.netlify.app";
     document.getElementById("status").innerHTML = "<h5>Welcome to Shinobi Presents<br>JioSaavn Downloader</h5><a href='/?url=https://www.jiosaavn.com/song/meri-aashiqui/RV4pdS5obh4'><img src='https://c.saavncdn.com/952/Meri-Aashiqui-Hindi-2020-20200602234001-500x500.jpg' width='250px' height='250px'>";
     document.getElementById("input").innerHTML = "<input type='text' id='srcid' name='url' placeholder='Enter Song Name or JioSaavn Link' value='' autocomplete='off' required><input type='submit' value='Search'>";
 } else if (surl.startsWith("https://www.jiosaavn.com/album/")) {
@@ -30,7 +30,7 @@ if (surl == null) {
                 txt += "<tr><td>" + al.songs[x].song + " By " + al.songs[x].singers + "</td><td><a href='/?url=" + al.songs[x].perma_url + "'>Open</a></td></tr>";
             }
             txt += "</tbody></table>"
-            document.title = al.name + " - jiosaavn1.netlify.app";
+            document.title = al.name + " - shinobi-jiosaavn.netlify.app";
             document.getElementById("input").innerHTML = "<input type='text' id='srcid' name='url' placeholder='Enter Song Name or JioSaavn Link' value='' autocomplete='off' required><input type='submit' value='Search'>";
             document.getElementById("download").innerHTML = txt;
             document.getElementById("status").innerHTML = "<img src='" + al.songs[0].image + "' width='250px' height='250px'>";
@@ -41,7 +41,7 @@ if (surl == null) {
     xmlhttp.open("GET", "https://shinobi-jiosaavn.netlify.app/api/?query=" + surl, true);
     xmlhttp.send();
 } else {
-    document.title = "Failed - jiosaavn1.netlify.app";
+    document.title = "Failed - shinobi-jiosaavn.netlify.app";
     document.getElementById("input").innerHTML = "<input type='text' id='srcid' name='url' placeholder='Enter Song Name or JioSaavn Link' value='' autocomplete='off' required><input type='submit' value='Search'>";
     document.getElementById("status").innerHTML = "Either Album Link is wrong or We're unable to fetch these details.";
 
