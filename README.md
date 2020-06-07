@@ -1,4 +1,4 @@
-# Jio-Saavn-Downloader
+# JioSaavn-Downloader
 
 * Uses [JioSaavn Un-Official API](https://github.com/Shinobi2307/JioSaavn-Downloader) and generates a download link.
 * This Website is nothing without API.
