@@ -20,13 +20,13 @@ if (surl == null) {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/meri-aashiqui/RV4pdS5obh4'><img src='https://c.saavncdn.com/952/Meri-Aashiqui-Hindi-2020-20200602234001-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "2" || hour == "7" || hour == "13" || hour == "19") {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/wanga-kaaliyan/OzIYCARjQGA'><img src='https://c.saavncdn.com/775/Wanga-Kaaliyan-Hindi-2020-20200525000142-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/alote-alote-dhaka/PQQKCTVxXno'><img src='https://c.saavncdn.com/533/Konttho-Bengali-2019-20190521175049-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "3" || hour == "8" || hour == "14" || hour == "20") {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/koi-fariyaad-unplugged/FjpSXDVUdnE'><img src='https://c.saavncdn.com/485/Koi-Fariyaad-Unplugged-Hindi-2020-20200607084001-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "4" || hour == "9" || hour == "15" || hour == "21") {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/tu-hi-yaar-mera-from-pati-patni-aur-woh/JV8HCDpVRHs'><img src='https://c.saavncdn.com/258/Tu-Hi-Yaar-Mera-From-Pati-Patni-Aur-Woh--Hindi-2019-20191202231535-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/phaka-frame/MgojXU1TVnQ'><img src='https://c.saavncdn.com/197/Dwitiyo-Purush-Bengali-2013-20200112103405-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "5" || hour == "10" || hour == "16" || hour == "22") {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/senorita/I1sPdgJoZFE'><img src='https://c.saavncdn.com/artists/Camila_Cabello_20171208142451_500x500.jpg' width='250px' height='250px'>";
@@ -55,13 +55,13 @@ if (surl == null) {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/meri-aashiqui/RV4pdS5obh4'><img src='https://c.saavncdn.com/952/Meri-Aashiqui-Hindi-2020-20200602234001-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "2" || hour == "7" || hour == "13" || hour == "19") {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/wanga-kaaliyan/OzIYCARjQGA'><img src='https://c.saavncdn.com/775/Wanga-Kaaliyan-Hindi-2020-20200525000142-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/alote-alote-dhaka/PQQKCTVxXno'><img src='https://c.saavncdn.com/533/Konttho-Bengali-2019-20190521175049-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "3" || hour == "8" || hour == "14" || hour == "20") {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/koi-fariyaad-unplugged/FjpSXDVUdnE'><img src='https://c.saavncdn.com/485/Koi-Fariyaad-Unplugged-Hindi-2020-20200607084001-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "4" || hour == "9" || hour == "15" || hour == "21") {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/tu-hi-yaar-mera-from-pati-patni-aur-woh/JV8HCDpVRHs'><img src='https://c.saavncdn.com/258/Tu-Hi-Yaar-Mera-From-Pati-Patni-Aur-Woh--Hindi-2019-20191202231535-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/phaka-frame/MgojXU1TVnQ'><img src='https://c.saavncdn.com/197/Dwitiyo-Purush-Bengali-2013-20200112103405-500x500.jpg' width='250px' height='250px'>";
             }
             else if (hour == "5" || hour == "10" || hour == "16" || hour == "22") {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/senorita/I1sPdgJoZFE'><img src='https://c.saavncdn.com/artists/Camila_Cabello_20171208142451_500x500.jpg' width='250px' height='250px'>";
