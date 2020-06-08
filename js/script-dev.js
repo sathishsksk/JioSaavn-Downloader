@@ -32,7 +32,7 @@ if (surl == null) {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/senorita/I1sPdgJoZFE'><img src='https://c.saavncdn.com/artists/Camila_Cabello_20171208142451_500x500.jpg' width='250px' height='250px'>";
             }
             else {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/love-me-like-you-do-from-fifty-shades-of-grey/AiskdBdfR1w'><img src='https://c.saavncdn.com/566/Love-Me-Like-You-Do-From-Fifty-Shades-Of-Grey-English-2015-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/ye-kaali-kaali-aankhen/EjkJaQRgVUo'><img src='https://c.saavncdn.com/409/Baazigar-Hindi-1993-500x500.jpg' width='250px' height='250px'>";
             }
 } else if (surl.startsWith("http://www.jiosaavn.com/song/") || surl.startsWith("https://www.jiosaavn.com/song/") || surl.startsWith("http://jiosaavn.com/song/") || surl.startsWith("https://jiosaavn.com/song/") || surl.startsWith("http://saavn.com/song/") || surl.startsWith("https://saavn.com/song/") || surl.startsWith("http://www.saavn.com/song/") || surl.startsWith("https://www.saavn.com/song/")) {
     var xmlhttp = new XMLHttpRequest();
@@ -67,7 +67,7 @@ if (surl == null) {
             document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/senorita/I1sPdgJoZFE'><img src='https://c.saavncdn.com/artists/Camila_Cabello_20171208142451_500x500.jpg' width='250px' height='250px'>";
             }
             else {
-            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/love-me-like-you-do-from-fifty-shades-of-grey/AiskdBdfR1w'><img src='https://c.saavncdn.com/566/Love-Me-Like-You-Do-From-Fifty-Shades-Of-Grey-English-2015-500x500.jpg' width='250px' height='250px'>";
+            document.getElementById("hourly").innerHTML = "<a href='/?url=https://www.jiosaavn.com/song/ye-kaali-kaali-aankhen/EjkJaQRgVUo'><img src='https://c.saavncdn.com/409/Baazigar-Hindi-1993-500x500.jpg' width='250px' height='250px'>";
             }
                 }
             } else if (e.endsWith(".mp3") === true) {
