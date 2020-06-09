@@ -4,13 +4,15 @@ const cacheName = 'jiosaavnsw';
 const startPage = 'https://shinobi-jiosaavn.netlify.app';
 const offlinePage = 'https://shinobi-jiosaavn.netlify.app/offline.html';
 const filesToCache = [
-  startPage,
+  ,
   offlinePage,
   '/css/style.css',
   '/js/script.js',
+  '/js/album.js',
   '/images/logo.png'
+  'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 ];
-const neverCacheUrls = '';
+const neverCacheUrls = startPage;
 
 // Install
 self.addEventListener('install', function(e) {
