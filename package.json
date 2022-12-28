@@ -1,6 +1,6 @@
 {
     "name": "JioSaavn-Downloader",
-    "version": "1.0.0",
+    "version": "",
     "description": "",
     "scripts": {
         "build": "echo \"No build specified\" && exit 1",
